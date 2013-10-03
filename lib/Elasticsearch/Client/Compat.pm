@@ -1,6 +1,6 @@
 package Elasticsearch::Client::Compat;
 {
-  $Elasticsearch::Client::Compat::VERSION = '0.01';
+  $Elasticsearch::Client::Compat::VERSION = '0.02';
 }
 
 use Moo;
@@ -2289,7 +2289,7 @@ Elasticsearch::Client::Compat - The client compatibility layer for migrating fro
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

@@ -1,6 +1,6 @@
 requires "Any::URI::Escape" => "0";
 requires "Carp" => "0";
-requires "Elasticsearch" => "0.73";
+requires "Elasticsearch" => "0.74";
 requires "Elasticsearch::Role::Client" => "0";
 requires "Elasticsearch::Util" => "0";
 requires "JSON" => "0";
@@ -31,5 +31,7 @@ on 'configure' => sub {
 };
 
 on 'develop' => sub {
+  requires "Test::More" => "0";
+  requires "Test::NoTabs" => "0";
   requires "Test::Pod" => "1.41";
 };

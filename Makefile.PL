@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Any::URI::Escape" => 0,
     "Carp" => 0,
-    "Elasticsearch" => "0.73",
+    "Elasticsearch" => "0.74",
     "Elasticsearch::Role::Client" => 0,
     "Elasticsearch::Util" => 0,
     "JSON" => 0,
@@ -43,7 +43,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.96",
     "lib" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

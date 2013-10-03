@@ -1,6 +1,6 @@
 package Elasticsearch::Compat::ScrolledSearch;
 {
-  $Elasticsearch::Compat::ScrolledSearch::VERSION = '0.01';
+  $Elasticsearch::Compat::ScrolledSearch::VERSION = '0.02';
 }
 
 use strict;
@@ -111,7 +111,7 @@ Elasticsearch::Compat::ScrolledSearch - A wrapper for managing scrolled searches
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

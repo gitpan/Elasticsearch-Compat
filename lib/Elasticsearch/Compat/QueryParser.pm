@@ -1,6 +1,6 @@
 package Elasticsearch::Compat::QueryParser;
 {
-  $Elasticsearch::Compat::QueryParser::VERSION = '0.01';
+  $Elasticsearch::Compat::QueryParser::VERSION = '0.02';
 }
 
 use strict;
@@ -595,7 +595,7 @@ Elasticsearch::Compat::QueryParser - Check or filter query strings
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

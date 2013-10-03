@@ -26,6 +26,8 @@
       },
       "develop" : {
          "requires" : {
+            "Test::More" : "0",
+            "Test::NoTabs" : "0",
             "Test::Pod" : "1.41"
          }
       },
@@ -37,7 +39,7 @@
          "requires" : {
             "Any::URI::Escape" : "0",
             "Carp" : "0",
-            "Elasticsearch" : "0.73",
+            "Elasticsearch" : "0.74",
             "Elasticsearch::Role::Client" : "0",
             "Elasticsearch::Util" : "0",
             "JSON" : "0",
@@ -71,6 +73,6 @@
          "web" : "https://github.com/elasticsearch/elasticsearch-perl-compat"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

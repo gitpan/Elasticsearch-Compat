@@ -1,6 +1,6 @@
 package Elasticsearch::Compat::Util;
 {
-  $Elasticsearch::Compat::Util::VERSION = '0.01';
+  $Elasticsearch::Compat::Util::VERSION = '0.02';
 }
 
 use strict;
@@ -54,7 +54,7 @@ Elasticsearch::Compat::Util - Provides the filter_keywords utility
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

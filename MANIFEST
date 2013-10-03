@@ -12,6 +12,7 @@ lib/Elasticsearch/Compat.pm
 lib/Elasticsearch/Compat/QueryParser.pm
 lib/Elasticsearch/Compat/ScrolledSearch.pm
 lib/Elasticsearch/Compat/Util.pm
+run_travis_tests.sh
 t/00-request.t
 t/10-queryparser.t
 t/release-eol.t
