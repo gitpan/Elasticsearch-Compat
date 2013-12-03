@@ -18,7 +18,8 @@ fi;
 
 git clone https://github.com/elasticsearch/elasticsearch-perl.git
 
-ES_HOME=./$ES_DIR prove -I elasticsearch-perl/lib -l t/*.t
+ES_HOME=./$ES_DIR prove -I elasticsearch-perl/lib -l -v t/*.t
 RESULT=$?
+cat log
 killall java 2>/dev/null
 exit $RESULT

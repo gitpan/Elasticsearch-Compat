@@ -39,7 +39,7 @@
          "requires" : {
             "Any::URI::Escape" : "0",
             "Carp" : "0",
-            "Elasticsearch" : "0.74",
+            "Elasticsearch" : "0.76",
             "Elasticsearch::Role::Client" : "0",
             "Elasticsearch::Util" : "0",
             "JSON" : "0",
@@ -73,6 +73,6 @@
          "web" : "https://github.com/elasticsearch/elasticsearch-perl-compat"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 

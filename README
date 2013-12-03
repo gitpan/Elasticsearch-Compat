@@ -3,7 +3,7 @@ NAME
     ElasticSearch.pm
 
 VERSION
-    version 0.02
+    version 0.03
 
 DESCRIPTION
     With the release of the official new Elasticsearch module, the old

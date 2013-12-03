@@ -1,6 +1,6 @@
 package Elasticsearch::Client::Compat;
 {
-  $Elasticsearch::Client::Compat::VERSION = '0.02';
+  $Elasticsearch::Client::Compat::VERSION = '0.03';
 }
 
 use Moo;
@@ -508,6 +508,7 @@ sub _bulk {
                 consistency => CONSISTENCY,
                 replication => REPLICATION,
                 refresh     => [ 'boolean', 1 ],
+                timeout     => ['duration'],
                 on_conflict => ['coderef'],
                 on_error    => ['coderef'],
             },
@@ -934,7 +935,9 @@ sub msearch {
 
 my %MSearch = (
     ( map { $_ => 'h' } 'index', 'type', keys %{ $Search_Defn{qs} } ),
-    ( map { $_ => 'b' } 'version', keys %{ $Search_Defn{data} } )
+    (   map { $_ => 'b' } 'timeout', 'stats',
+        'version', keys %{ $Search_Defn{data} }
+    )
 );
 delete $MSearch{scroll};
 
@@ -2289,7 +2292,7 @@ Elasticsearch::Client::Compat - The client compatibility layer for migrating fro
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

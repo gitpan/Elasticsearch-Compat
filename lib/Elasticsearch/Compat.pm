@@ -1,13 +1,13 @@
 package Elasticsearch::Compat;
 
 use Moo;
-use Elasticsearch 0.74;
+use Elasticsearch 0.76;
 
 use Scalar::Util qw(openhandle);
 use Elasticsearch::Util qw(parse_params);
 use namespace::clean;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 #===================================
 sub new {
@@ -60,7 +60,7 @@ Elasticsearch::Compat - A compatibility layer for migrating from ElasticSearch.p
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 
