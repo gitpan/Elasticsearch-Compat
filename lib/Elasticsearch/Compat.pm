@@ -7,7 +7,7 @@ use Scalar::Util qw(openhandle);
 use Elasticsearch::Util qw(parse_params);
 use namespace::clean;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 #===================================
 sub new {
@@ -54,13 +54,15 @@ sub new {
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Elasticsearch::Compat - A compatibility layer for migrating from ElasticSearch.pm
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
@@ -215,7 +217,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2013 by Elasticsearch BV.
+This software is Copyright (c) 2014 by Elasticsearch BV.
 
 This is free software, licensed under:
 

@@ -1,8 +1,5 @@
 package Elasticsearch::Compat::Util;
-{
-  $Elasticsearch::Compat::Util::VERSION = '0.03';
-}
-
+$Elasticsearch::Compat::Util::VERSION = '0.04';
 use strict;
 use warnings;
 use Sub::Exporter -setup => {    exports => [ 'filter_keywords']};
@@ -48,13 +45,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Elasticsearch::Compat::Util - Provides the filter_keywords utility
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -119,7 +118,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2013 by Elasticsearch BV.
+This software is Copyright (c) 2014 by Elasticsearch BV.
 
 This is free software, licensed under:
 

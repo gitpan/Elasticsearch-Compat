@@ -1,8 +1,5 @@
 package Elasticsearch::Compat::ScrolledSearch;
-{
-  $Elasticsearch::Compat::ScrolledSearch::VERSION = '0.03';
-}
-
+$Elasticsearch::Compat::ScrolledSearch::VERSION = '0.04';
 use strict;
 use warnings FATAL => 'all', NONFATAL => 'redefine';
 
@@ -105,13 +102,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Elasticsearch::Compat::ScrolledSearch - A wrapper for managing scrolled searches
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -223,7 +222,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2013 by Elasticsearch BV.
+This software is Copyright (c) 2014 by Elasticsearch BV.
 
 This is free software, licensed under:
 

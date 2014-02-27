@@ -1,8 +1,5 @@
 package Elasticsearch::Client::Compat;
-{
-  $Elasticsearch::Client::Compat::VERSION = '0.03';
-}
-
+$Elasticsearch::Client::Compat::VERSION = '0.04';
 use Moo;
 with 'Elasticsearch::Role::Client';
 
@@ -2286,13 +2283,15 @@ sub _build_cmd {
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Elasticsearch::Client::Compat - The client compatibility layer for migrating from ElasticSearch.pm
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -4746,7 +4745,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2013 by Elasticsearch BV.
+This software is Copyright (c) 2014 by Elasticsearch BV.
 
 This is free software, licensed under:
 
