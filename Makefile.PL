@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "A compatibility layer for migrating from ElasticSearch.pm",
+  "ABSTRACT" => "DEPRECATED: A compatibility layer for migrating from ElasticSearch.pm",
   "AUTHOR" => "Clinton Gormley <drtech\@cpan.org>",
   "BUILD_REQUIRES" => {
     "Test::More" => "0.98"
@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Any::URI::Escape" => 0,
     "Carp" => 0,
-    "Elasticsearch" => "0.76",
+    "Elasticsearch" => "1.05",
     "JSON" => 0,
     "Moo" => 0,
     "Scalar::Util" => 0,
@@ -42,7 +42,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.98",
     "lib" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -53,7 +53,7 @@ my %FallbackPrereqs = (
   "Any::URI::Escape" => 0,
   "Carp" => 0,
   "ElasticSearch::SearchBuilder" => 0,
-  "Elasticsearch" => "0.76",
+  "Elasticsearch" => "1.05",
   "JSON" => 0,
   "Moo" => 0,
   "Scalar::Util" => 0,

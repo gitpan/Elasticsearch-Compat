@@ -1,5 +1,5 @@
 package Elasticsearch::Compat::QueryParser;
-$Elasticsearch::Compat::QueryParser::VERSION = '0.04';
+$Elasticsearch::Compat::QueryParser::VERSION = '0.05';
 use strict;
 use warnings FATAL => 'all';
 use Elasticsearch::Util qw(parse_params throw);
@@ -594,7 +594,7 @@ Elasticsearch::Compat::QueryParser - Check or filter query strings
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
